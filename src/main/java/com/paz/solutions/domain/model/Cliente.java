@@ -5,8 +5,8 @@ import javax.persistence.SequenceGenerator;
 import javax.persistence.*;
 
 @Entity
-@Table(schema = "pessoa", name = "cliente")
-@SequenceGenerator(name = "cliente", sequenceName = "cliente_id_seq", schema = "pessoa")
+@Table(schema = "public", name = "cliente")
+@SequenceGenerator(name = "cliente", sequenceName = "cliente_id_seq", schema = "public")
 public class Cliente {
 	
 	@Id
